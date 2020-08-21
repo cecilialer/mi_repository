@@ -1,0 +1,255 @@
+html {
+   font-size: 62.5%;
+    }   
+.menuPrincipal{
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	background-color: #002437;
+	position: sticky;
+	top: 10px;
+	font-size: 1.2rem;
+}
+li{
+	display: inline-block;
+	margin: 1px;
+	padding: 1px 1px 1px 5px;
+}
+a{
+	color: white;
+	text-decoration: none;
+
+}
+h1{
+	font-family:'Montserrat', sans-serif;
+	font-weight: 900; 
+	text-align: left;
+	font-size: 6rem;
+	color: #002437;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+p{
+	font-family:'Roboto', sans-serif;
+	font-weight: 300; 
+	text-align: left;
+	font-size:1.5rem;
+	color: #002437;
+}
+.textoIntroduccion{
+	padding-top: 20px;
+}
+
+.Galeria{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	padding: 10px 50px 50px 50px;
+	margin-left: 30px;
+	justify-content: space-between;
+}
+.tituloGaleria{
+	margin-left: 80px;
+}
+form {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300; 
+	font-size: 1rem;
+	color: #002437;
+}
+h2{
+ 	font-family:'Montserrat', sans-serif;
+	font-weight: 800; 
+	text-align: left;
+	font-size: 4rem;
+	color: #002437;
+}
+.atencionSoluciones{
+	background-color: #002437;
+   	width: 1500px;
+  	height: 350px;
+  	padding-top: 120px;
+}
+.textoIcono{
+	font-family:'Roboto', sans-serif;
+	font-weight: 300; 
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	width: 100px;
+	height: 80px;
+	padding: 5px;
+}
+h6{
+	font-family:'Montserrat', sans-serif;
+	font-weight: 800; 
+	font-size: 1.7rem;
+	color: white;
+}
+.Atencion{
+	width: 150px;
+	height: 100px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.Asesoramiento{ 
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.Soluciones{ 
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+}
+.imagenQuien{
+	width: 1370px;
+	margin-left: 88px;
+}
+.atencionSolucionesQuien{
+	background-color: #264756;
+	display: flex;
+   	flex-flow:column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 5px;
+	padding-left: 120px;
+}
+.AtencionQuien{ 
+	width: 1200px;
+	height: 150px;
+	padding: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+}
+.AsesoramientoQuien{ 
+	width: 1200px;
+	height: 150px;
+	padding: 5px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+}
+.SolucionesQuien{ 
+	width: 1200px;
+	height: 150px;
+	padding: 5px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+}
+.textoIconoQuien{
+	font-family:'Roboto', sans-serif;
+	font-weight: 300; 
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	width: 300px;
+	height: 80px;
+	padding: 5px;
+	margin-left: 50px;
+}
+.imagenRotate{
+	transform: rotate(45deg);
+}
+.imagenGaleria{
+   height: 220px;
+   transition: height 2s;       
+}
+.imagenGaleria:hover {
+   height: 440px;
+}
+.formulario {
+   width: 100px; height: 50px;
+   transition: all 2s;       
+}
+.formulario:focus {
+   width: 200px; height: 70px
+   font-size: 24px;
+   background-color: grey;
+}
+h4{
+	font-family:'Montserrat', sans-serif;
+	font-weight: 800; 
+	text-align: left;
+	font-size: 1.2rem;
+	color: white;
+}
+.footerTexto{
+	font-family:'Roboto', sans-serif;
+	font-weight: 300;  
+	text-align: left;
+	font-size: 1rem;
+	color: white;
+	height: 50px;
+	width: 90px;
+	margin: 10px;
+	padding: 5px;
+ }
+.footer{
+	background-image: linear-gradient(#264756,#002437);
+  	width: 1500px;
+  	height: 200px;
+  }
+.sobreNosotros{
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mantenteContacto{
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.socialMedia{
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
